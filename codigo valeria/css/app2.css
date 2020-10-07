@@ -1,0 +1,49 @@
+@font-face {
+	font-family: 'blox';
+	src: url(../font/blox.ttf);
+}
+
+@font-face {
+	font-family: 'Halloween.ttf';
+	src: url(../font/Halloween.ttf);
+}
+
+
+.imagen-portada{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	filter:opacity(40%);
+}
+.contenedor1{
+	position: relative;
+}
+.texto{
+	color:#05F0DF;
+	font-family: blox;
+	position: relative;
+	padding:  50px;
+	font-size: 100px;
+	margin: 10%;
+}
+.text{
+font-family: blox;
+position: relative;
+font-size: 25px;
+color:#8610F0;
+margin: 10%;
+}
+.subtitulo{
+	font-family: blox;
+	position: relative;
+	font-size: 25px;
+	color:#FF127D;
+	margin: 10%;
+}
+.fuente {
+	width: 100%;
+	height: 400px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}

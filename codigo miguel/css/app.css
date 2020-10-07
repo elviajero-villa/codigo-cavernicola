@@ -1,0 +1,51 @@
+
+@font-face {
+	font-family: 'TitiliumWeb-Light';
+	src: url(../fonts/Titillium_Web/TitilliumWeb-Light.ttf);
+}
+
+@font-face {
+	font-family:  TitilliumWeb-Bold;
+	src: url(../fonts/Titillium_Web/TitilliumWeb-Bold.ttf);
+}
+
+.contenedor-principal{
+	margin: 30px;
+}
+
+.texto{
+	font-family: 'TitilliumWeb-Light';
+	font-size: 20px;
+	color: #763948;
+}
+
+.imagen-africa {
+	width: 70%;
+	box-shadow: -20px 5px 5px 5px #484848;	
+	border: 3px solid #E6D6A5;
+	margin: 7% 14%;  
+	padding: 30px;
+	background: #E6D6A5;
+	border-radius: 60px 10px;
+
+}
+.imagen{
+	width: 90%;
+	box-shadow: -20px 5px 5px 5px #484848;	
+	border: 3px solid #E6D6A5;
+	margin:13%;  
+	padding: 30px;
+	background: #E6D6A5;
+	border-radius: 60px 10px;
+
+}
+
+.titulo{
+	text-shadow: 3px 4px  #b2b2b2;
+	color: #763948 ;
+	font-size: 70px;
+	text-align: center;
+	font-family: 'TitilliumWeb-Bold';
+
+
+}

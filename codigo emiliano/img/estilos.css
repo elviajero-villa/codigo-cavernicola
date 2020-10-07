@@ -1,0 +1,78 @@
+body{
+background: lightgray
+}
+
+@font-face {
+	font-family:();
+	src: url();
+}
+
+#container{
+	width: 1100px;
+	height: 350px;
+	margin: 0px auto;
+	border: ridge;
+	border-color: blue;
+	background: yellow;
+}
+
+header{
+	background: green;
+	width: 99.5%;
+	height: 70px;
+	text-align: center;
+	margin: 0px;
+	border: dotted;
+	border-color: red;
+	line-height: 50px;
+	color: #000000;
+	border-bottom: 3px dotted gold;
+	font-size: 65px;
+
+}
+nav{
+	background: black;
+	width: 50px;
+	width: 99.5%;
+	margin: 0px;
+}
+
+nav ul li {
+	float: left;
+	list-style: none;
+	margin: 10px;
+}
+
+article{
+	color: brown;
+	margin-top: 15px
+	margin-bottom: 15px;
+	border-bottom: 1px #eee solid
+}
+
+
+.clearfix{
+	clear: both;
+}
+
+#content{
+	background: lightgreen;
+	float: left;
+	width: 80%;
+}
+
+aside{
+	float: right;
+width: 20%;
+height: 292px;
+background: black;
+color: white;
+}
+
+footer{
+	background: grey;
+	color: white;
+	text-align: center;
+	height: 350px;
+	line-height: 50px;
+}

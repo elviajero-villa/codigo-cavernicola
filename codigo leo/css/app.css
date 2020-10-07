@@ -1,0 +1,114 @@
+.contenedorprincipal {
+	width: 1200px;
+	height: 1200px;
+	background: #feb640;
+	position: relative; /*como es el cuadrado principal debe de tener una posición relativa*/
+
+}
+
+
+.contenedor1 {
+	width: 500px;
+	height: 500px;
+	background: #763948;
+	margin:50px;
+	position: absolute;  /*como son los cuadros de adentro debden de se position absoluta*/
+	top:0;
+	bottom:; 
+	right:; 
+	left:;
+}
+
+.contenedor2 {
+	width: 500px;
+	height: 500px;
+	background: #763948;
+	margin:50px;
+	position: absolute;
+	top:;
+	bottom:0;
+	right:;
+	left:;
+}
+.imagenzorro{
+
+	width: 450px;
+	height: auto;
+	box-shadow: 5px 5px 5px 5px; color: solid-blue
+	margin: 5px; color: white;
+	border-radius: 20px;
+}
+
+.contenedor3 {
+	width: 500px;
+	height: 500px;
+	background: #763948;
+	margin:50px;
+	position: absolute;
+	top:;
+	bottom:;
+	right: 0;
+	left:;
+	padding: auto;
+}
+
+.imagenL{
+	width: 350px;
+	height: auto;
+	box-shadow: 5px 5px 5px 5px; color: solid-blue
+	margin: 5px; color: white;
+	border-radius: 20px;
+}
+
+.contenedor4 {
+	width: 500px;
+	height: 500px;
+	background: #763948;
+	margin:50px;
+	position: absolute;
+	top:;
+	bottom: 0;
+	right: 0;
+	left: ;
+	padding: auto;
+}
+
+.titulo {
+
+	text-shadow: 1px 1px; color: blue;
+	font-family: Bold
+	font-size: 70px;
+
+}
+
+.texto {
+
+	text-align: 30px 30px; color: blue;
+	text-shadow: 1px 1px;
+	font-family: Italic
+}
+
+@font-face {
+	font-family: face;
+	src: url(../fonts/Noto_Sans.zip/Bold);
+}
+
+@font-face {
+ 	font-family: face;
+ 	src: url(../fonts/Noto_Sans.zip/BoldItalic);
+ }
+
+@font-face {
+  	font-family: face;
+  	src: url(../fonts/Noto_Sans.zip/Italic);
+  } 
+
+@font-face{
+	font-family: face;
+	src: url(../fonts/Noto_Sans.zip/Regular);
+
+}
+
+
+
+
